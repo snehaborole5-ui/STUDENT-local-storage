@@ -113,6 +113,7 @@ stdArr.push(NEW_STD)
 
 localStorage.setItem('stdArr',JSON.stringify(stdArr))
 
+
 stdForm.reset()
 
 // we will create a new tr and append it in tbody
