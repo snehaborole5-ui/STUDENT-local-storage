@@ -16,11 +16,13 @@ const noStdMsg = document.getElementById('noStdMsg')
 // DB
 
 let stdArr = []
+   
+
 
 if(localStorage.getItem('stdArr')){
     stdArr = JSON.parse(localStorage.getItem('stdArr'))
 }
-cl(stdArr)
+// cl(stdArr)
 
 
 function createTrs(arr){
